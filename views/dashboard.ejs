@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0 ">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Dashboard</h2>
+        <p>First Name: <%=user.firstName%></p>
+        <p>Last Name: <%=user.lastName%></p>
+        <p>Mobile Number: <%=user.mobileNumber%></p>
+        <p>Email: <%=user.email%></p>
+        <img src="/uploads/<%= user.picture %>" alt="User Picture" style="width: 100px; height:100px;">
+    </div>
+</body>
+</html>
